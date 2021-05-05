@@ -20,7 +20,7 @@ spec:
         app: node-js
     spec:
       containers:
-      - image: diwaaakar/sample-nodejs-app
+      - image: diwaaakar2205/sample-nodejs-app
         name: node-js-hello
         resources:
           requests:
