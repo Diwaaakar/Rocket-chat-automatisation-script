@@ -1,4 +1,4 @@
-
+# Step 1, Deployment
 // $ aws configure
 // Terraform configuration
 // $ mkdir learn-terraform-aws-instance
@@ -45,6 +45,8 @@ tags = {
 
 # As the rocket chat was already deployed on aws so only need to do the automatisation
 
+
+# Step 2 automatisation 
 
 # Initialise the directory 
 // $ terraform init
