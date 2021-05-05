@@ -29,7 +29,9 @@ instance_type = ¨t2-micro¨
 }
 
 
-# As the rocket chat was already deployed 
+# As the rocket chat was already deployed on aws so only need to do the automatisation
+
+
 # Initialise the directory 
 # $ terraform init
 
