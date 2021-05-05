@@ -17,7 +17,7 @@ terraform {
   required_version = ">= 0.14.9"
 }
 
-# For launching Ec2 instances 
+# For launching EC2 instances 
 Provider ¨aws¨ {
 Profile = ¨dafault¨
 region  = ¨us-west-2¨ 
