@@ -1,9 +1,9 @@
 
-# $ aws configure
-# Terraform configuration
-# $ mkdir learn-terraform-aws-instance
-# $ cd learn-terraform-aws-instance
-# $ touch main.tf
+// $ aws configure
+// Terraform configuration
+// $ mkdir learn-terraform-aws-instance
+// $ cd learn-terraform-aws-instance
+// $ touch main.tf
 
 
 terraform {
@@ -37,9 +37,9 @@ tags = {
     Name = "ExampleAppServerInstance"
   }
 }
-# $ terraform init
-# $ terraform plan
-# $ terraform apply
+// $ terraform init
+// $ terraform plan
+// $ terraform apply
 
 
 
@@ -47,7 +47,7 @@ tags = {
 
 
 # Initialise the directory 
-# $ terraform init
+// $ terraform init
 
 # Create infrastructure 
 # Rocket-chat-automatisation-script
@@ -83,8 +83,8 @@ spec:
             memory: "500Mi"
 status: {} 
 
-# $ terraform plan
-# $ terraform apply
+// $ terraform plan
+// $ terraform apply
 
-# for deleting 
-# $ terraform destroy
+// for deleting 
+// $ terraform destroy
