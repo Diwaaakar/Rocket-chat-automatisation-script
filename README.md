@@ -22,10 +22,13 @@ Provider ¨aws¨ {
 Profile = ¨dafault¨
 region  = ¨us-west-2¨ 
 }
-
 resource ¨aws_instance¨ ¨example.fi¨{
 ami  = ¨ami--830c94e3¨
 instance_type = ¨t2-micro¨
+}
+tags = {
+    Name = "ExampleAppServerInstance"
+  }
 }
 
 
