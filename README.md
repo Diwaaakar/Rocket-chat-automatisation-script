@@ -24,7 +24,7 @@ provider "aws" {
   secret_key = "vkUvea0VJ+Oc/K83AalE9468lglCgXizKDNXqZeJ"
 }
 
-
+# or 
 Provider ¨aws¨ {
 Profile = ¨dafault¨
 region  = ¨us-west-2¨ 
@@ -37,6 +37,10 @@ tags = {
     Name = "ExampleAppServerInstance"
   }
 }
+# $ terraform init
+# $ terraform plan
+# $ terraform apply
+
 
 
 # As the rocket chat was already deployed on aws so only need to do the automatisation
@@ -46,8 +50,6 @@ tags = {
 # $ terraform init
 
 # Create infrastructure 
-# $ terraform plan
-
 # Rocket-chat-automatisation-script
 apiVersion: apps/v1
 kind: Deployment
@@ -81,6 +83,7 @@ spec:
             memory: "500Mi"
 status: {} 
 
+# $ terraform plan
 # $ terraform apply
 
 # for deleting 
