@@ -18,6 +18,13 @@ terraform {
 }
 
 # For launching EC2 instances 
+provider "aws" {
+  region     = "us-west-2"
+  access_key = "AKIASPYNB5K2OJGUZHU6"
+  secret_key = "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"
+}
+
+
 Provider ¨aws¨ {
 Profile = ¨dafault¨
 region  = ¨us-west-2¨ 
